@@ -2,4 +2,5 @@
 &lt; Advanced Programming with Java 2.1 / >
 
 IDE: IntelliJ Ultimate
+
 JDK: Adoptium Temurin OpenJDK 17 Hotspot

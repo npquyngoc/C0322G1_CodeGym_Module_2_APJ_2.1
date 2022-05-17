@@ -27,7 +27,7 @@ public class DrawMenu {
 
                 case 3:
 
-                    System.out.println("\n| Draw a Triangle |\n\n  * * * * * * * *\n  * * * * * * * *\n  * * * * * * * *\n  * * * * * * * *\n");
+                    System.out.println("\n| Draw a Rectangle |\n\n  * * * * * * * *\n  * * * * * * * *\n  * * * * * * * *\n  * * * * * * * *\n");
                     break;
 
                 case 4:

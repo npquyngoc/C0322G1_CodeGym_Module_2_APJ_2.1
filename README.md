@@ -3,4 +3,4 @@
 
 IDE: IntelliJ Ultimate
 
-JDK: Adoptium Temurin OpenJDK 17 Hotspot
+JDK: Adoptium Temurin OpenJDK 8 Hotspot

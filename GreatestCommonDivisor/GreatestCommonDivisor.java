@@ -1,6 +1,7 @@
 package GreatestCommonDivisor;
 
 import java.util.Scanner;
+
 public class GreatestCommonDivisor {
 
     public static void main(String[] args) {

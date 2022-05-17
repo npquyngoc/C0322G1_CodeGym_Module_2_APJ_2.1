@@ -1,7 +1,9 @@
 package IsPrime;
 
 import java.util.Scanner;
+
 public class IsPrime {
+    
     public static void main(String[] args) {
 
         Scanner getInput = new Scanner(System.in);

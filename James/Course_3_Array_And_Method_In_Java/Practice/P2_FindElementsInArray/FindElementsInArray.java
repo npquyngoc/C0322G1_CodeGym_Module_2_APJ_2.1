@@ -11,14 +11,14 @@ public class FindElementsInArray {
 
         String[] studentsName = {"Christian", "Michael", "Camila", "Sienna", "Tanya", "Connor", "Zachariah", "Mallory", "Zoe", "Emily"};
 
-        System.out.print("\n■ Type a name of student: ");
+        System.out.print("\n■ Type a name of the student: ");
         String inputName = getInput.nextLine();
 
         for (int i = 0; i < studentsName.length; i++) {
 
             if (studentsName[i].equals(inputName)) {
 
-                System.out.println("■ Position of the student with name " + inputName + " in the list is " + i);
+                System.out.println("■ The student with name " + inputName + " at position " + i);
                 isExist = true;
                 break;
 
@@ -28,7 +28,7 @@ public class FindElementsInArray {
 
         if (!isExist) {
 
-            System.out.println("■ Not found " + inputName + " in the list.");
+            System.out.println("■ Not found the student with name " + inputName + " in the array.");
 
         }
 

@@ -11,16 +11,16 @@ public class ArrayElementsReverse {
 
         do {
 
-            System.out.print("\n■ Type a number size of array: ");
+            System.out.print("\n■ Type a number size of the array: ");
             arraySize = getInput.nextInt();
 
-            if (arraySize > 20) {
+            if (arraySize < 1 || arraySize > 20) {
 
-                System.out.println("■ The array size does not exceed 20!");
+                System.out.println("■ The array size must be from 1 to 20!");
 
             }
 
-        } while (arraySize > 20);
+        } while (arraySize < 1 || arraySize > 20);
 
         array = new int[arraySize];
 
@@ -34,7 +34,7 @@ public class ArrayElementsReverse {
 
         }
 
-        System.out.print("\n■ Default elements in array: ");
+        System.out.print("\n■ Default elements in the array: ");
 
         for (int displayArray : array) {
 
@@ -50,7 +50,7 @@ public class ArrayElementsReverse {
 
         }
 
-        System.out.print("\n■ Reverse elements in array: ");
+        System.out.print("\n■ Reverse elements in the array: ");
 
         for (int displayArray : array) {
 

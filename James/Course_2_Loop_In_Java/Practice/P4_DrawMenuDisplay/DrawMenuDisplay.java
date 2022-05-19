@@ -10,7 +10,7 @@ public class DrawMenuDisplay {
 
         while (true) {
 
-            System.out.print("===================================\n\n       1. Draw a Square\n       2. Draw a Triangle\n       3. Draw a Rectangle\n       4. Exit application\n\n===================================\n\n■ Select a number above to draw: ");
+            System.out.print("===============================\n\n    1. Draw a Square\n    2. Draw a Triangle\n    3. Draw a Rectangle\n    4. Exit the application\n\n===============================\n\n■ Select a number above to draw: ");
             int choice = input.nextInt();
 
             switch (choice) {

@@ -6,7 +6,7 @@ public class RemoveElementsInArray {
 
     public static void main(String[] args) {
 
-        int array[], arraySize, i = 0;
+        int array[], i = 0, arraySize, ascending, number;
         Scanner getInput = new Scanner(System.in);
 
         do {
@@ -43,8 +43,7 @@ public class RemoveElementsInArray {
         }
 
         System.out.print("\n\n■ Type a number you want to remove in the array: ");
-        int number = getInput.nextInt();
-        int ascending;
+        number = getInput.nextInt();
 
         for (ascending = i = 0; i < arraySize; i++) {
 
